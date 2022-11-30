@@ -1,0 +1,136 @@
+html {
+    height: 100%;
+    display: flex;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-color: black;
+}
+
+.korijen {
+    height: 100%;
+    display: flex;
+
+}
+
+.lijeva-strana {
+width: 300px;
+height: 100%;
+background-color: white;
+}
+
+.desna-strana {
+    flex-grow: 1;
+    height: 100%;
+}
+
+.lijeva-strana-gornji-dio {
+    height:50%;
+    width: 100%;
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+    font-weight: bold;
+    font-size: 20px; 
+}
+
+.lijeva-strana-donji-dio {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.desna-strana {
+    flex-grow: 1;
+    height: 100%;
+    padding: 25px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.desna-strana-gornji-dio {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+
+}
+
+.desna-strana-srednji-dio {
+    flex-grow: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.desna-strana-donji-dio {
+    height: 50px;
+    width: 100%;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.dugme {
+    height: 26px;
+    width: 100px;
+    margin: 12px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+
+.text_o_restoranu {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 250x;
+    font-style: italic;
+    color: white;
+}
+
+.slika_restorana {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.slika {
+    width: 400px;
+}
+
+.veličina_logoa {
+    width: 30px;
+}
+
+.veličina_logoa2 {
+    width: 50px;
+    
+}
+
+.footer {
+    display: flex;
+    flex-direction: row-reverse;
+}
